@@ -1,4 +1,4 @@
-
+import Productos from "../pages/Productos"
 
 export const MenuItems = [
    {
@@ -30,7 +30,7 @@ export const MenuItems = [
    },
 {
    title:"Contacto",
-   url : "/Contacto",
+   url :"/Contacto",
    cName:"nav-links",
    icon :"fa-solid fa-phone"
   }

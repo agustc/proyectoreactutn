@@ -10,3 +10,8 @@
 .App{
     text-align: center;
 }
+
+.hola{
+   display: flex;
+   justify-content: center;
+}
