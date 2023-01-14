@@ -8,6 +8,7 @@ return(
     <>
     <Navbar/>
     <Outlet/>
+    
 <Banner/>
     <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br><br></br>
     <Footer/>

@@ -10,9 +10,17 @@ export const Banner=()=>{
       <a href="/">Lee más</a>
      </div> 
     <div className="banner_img"> */}
-<div className="banner_img">
+   
+   
+     <div className="contenedor">
+   <div className="banner">
+   <div className="texto"> <h2>Descubri el poder  de las plantas</h2>
+   </div>
+
+    <div className="banner_img">
       <img src={licuadoarandanos} alt=""/>
-    
+      </div>
+      </div>
     </div>
     </>
     )

@@ -11,10 +11,11 @@ import Sucursales from "./components/pages/Sucursales";
 import Layout from "./components/pages/Layout";
 import React from 'react';
 import Rutas from "./components/navbar/Rutas";
+import { Banner } from "./components/Banner/Banner";
  function App(){
   return(
     <div className="App">
- 
+
  <Routes>
             
                <Route path="/" element={<Home/>}/>

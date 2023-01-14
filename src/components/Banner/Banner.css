@@ -7,24 +7,47 @@
    /* overflow: hidden;
 animation: tipado 1.4s steps(7)alternate infinite;*/
 }
+.contenedor{
+    background-image:url(../assets/tienda.jpg);
+background-size:cover ;
 
+    
+}
 .banner{
-    display: flex;
-    position: relative;
    
+    margin: 5.6rem 6rem;
+    display: flex;
     justify-content: space-between;
-    align-items:center;
+    align-items: center;
+   
+  
+   
+} 
+.texto{
+   width: 45%;
+   text-align: start;
+   font-size: 1.5rem;
+   color: bisque;
     
 }
 
+.texto h2{
+    padding-top: 2.2rem;
+    font-weight: bold;
+}
+
 .banner_img{
-    animation: movimiento 2.5s linear infinite;
+    align-items: center;
+    padding-bottom: 3rem;
+  animation: movimiento 2.5s linear infinite;
+  
 
 }
 
 .banner_img img{
-width: 600px;
+width: 300px;
 display: block;
+filter: brightness(200%);
 }
 
 /*@keyframes tipado{
