@@ -1,0 +1,74 @@
+.container{
+padding: 0 2rem;
+position: relative;
+display: flex;
+flex-direction: column;
+gap: 2rem;
+align-items: center;
+justify-content: center;
+padding-bottom: 2rem;
+
+
+
+}
+.imagen{
+    width:  40px;
+    height: 60px;
+}
+.container>:nth-child(1){
+    position: absolute;
+    width: 8rem;
+    left:30%;
+    top: -3rem;
+
+}
+.productss{
+    display: grid;
+    width: 90%;
+    grid-template-columns: 25% auto;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+    font-weight: 500;
+    font-size: 1.3rem;
+    font-weight: bold;
+
+ 
+
+}
+
+.menu>li:hover{
+    color:blueviolet;
+    cursor:pointer;
+   
+}
+.list{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
+    overflow-y: scroll;
+    grid-gap:2rem;
+    justify-content:space-between ;
+}
+.product{
+    width:12rem;
+    height: 8rem;
+    background-color: #E69EFE ;
+    position: relative;
+    overflow: hidden;
+    padding: 1rem;
+    display: flex;
+    border-radius: 1rem;
+
+}
+
+.product>img{
+  top:3rem;
+  width:4rem;  
+  height: 5rem;
+}
