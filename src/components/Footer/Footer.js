@@ -2,7 +2,8 @@ import "./FooterStyle.css"
 import React from "react";
 
 import fruti from "../assets/fruti.png"
-const Footer= () =>{
+
+export const Footer= () =>{
     return(
 <div className="footer-main-container">
     <div className="top">

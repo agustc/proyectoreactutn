@@ -1,14 +1,17 @@
 
 import React from 'react'
 import Navbar from '../navbar/Navbar';
-
+import { Products } from '../Products/Products';
+import {Footer} from "../Footer/Footer";
 export default function Productos() {
     return (
         <>
         <Navbar/>
-        <h2>Productos
+        <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br>
+        <Products/>
+       <Footer/>
 
-        </h2>
+        
         </>
     );
 }

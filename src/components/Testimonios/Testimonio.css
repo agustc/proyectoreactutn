@@ -1,0 +1,75 @@
+
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+  
+}
+.titulo-tes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.contenedor-tes{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nombre{
+   display: flex;
+    align-items: center;
+    justify-content: center; 
+
+}
+.imagen-test1{
+    max-width:30%;
+    max-height:30%;
+    clip-path: polygon(0% 1%, 100% 1%, 100% 30%, 50% 84%, 50% 83%, 0% 28%);
+}
+.imagen-test2{
+    max-width:50%;
+    max-height:50%;
+    clip-path: polygon(0% 1%, 100% 1%, 100% 30%, 50% 84%, 50% 83%, 0% 28%);
+}
+.imagen-test{
+    max-width:50%;
+    max-height:50%;
+    clip-path: polygon(0% 1%, 100% 1%, 100% 30%, 50% 84%, 50% 83%, 0% 28%);
+
+  }
+
+.texto-test{
+    font-weight: bold;
+}
+.corazones{
+    margin-left: 20px;
+    justify-content: space-between;
+}
+.fa-heart{
+    color:#DC2211 ;
+    font-size: 1.2rem;
+}
+
+.swiper {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}

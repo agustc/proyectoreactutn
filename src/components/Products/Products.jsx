@@ -2,9 +2,11 @@ import React,{useState} from "react";
 import Plane from "../assets/plane.png";
 import {ProductsData} from "../data/dataproducts"
 import "../Products/products.css"
- 
+import { useAutoAnimate } from '@formkit/auto-animate/react'
+
 export const Products = () =>{
 
+    const [parent]=useAutoAnimate()
     const [MenuProducts, setMenuProducts]=useState(ProductsData);
     const filter=(type)=>{
         setMenuProducts(ProductsData.filter((product)=>product.type==type))
@@ -21,7 +23,7 @@ export const Products = () =>{
                     <li onClick={()=>filter("Refrigerado")}>Refrigerado</li>
                     <li onClick={()=>filter("Cosmetica")}>Cosmetica</li>
                 </ul>
-                <div className="list">
+                <div className="list" ref={parent}>
                     
                    {MenuProducts.map((product,i)=> (
                         <div className="product">
