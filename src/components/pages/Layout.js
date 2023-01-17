@@ -4,7 +4,8 @@ import Navbar from "../navbar/Navbar";
 import Footer from "../Footer/Footer";
 import { Banner } from "../Banner/Banner";
 import {Products} from "../Products/Products";
-import {Testimonios} from "../Testimonios/Testimonio"
+import {Testimonios} from "../Testimonios/Testimonio";
+import { Sucu } from "../Sucur/sucu";
 export default function Layout (){
 return(
     <>
@@ -13,7 +14,7 @@ return(
     <Banner/>
    <Products/>
    <Testimonios/>
-   <br></br><br></br>
+<Sucu/>
     <Footer/>
     </>
 )
