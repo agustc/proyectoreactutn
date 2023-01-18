@@ -6,6 +6,7 @@ import { Banner } from "../Banner/Banner";
 import {Products} from "../Products/Products";
 import {Testimonios} from "../Testimonios/Testimonio";
 import { Sucu } from "../Sucur/sucu";
+import {Us} from "../US/Us";
 export default function Layout (){
 return(
     <>
@@ -14,7 +15,9 @@ return(
     <Banner/>
    <Products/>
    <Testimonios/>
+   <Us/>
 <Sucu/>
+<br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
     <Footer/>
     </>
 )

@@ -1,27 +1,12 @@
 import "./sucu.css";
 import tiendamermelada from "../assets/tiendamermelada.jpg"
-import tiendapanes from  "../assets/cerezas.jpg"
+import tiendapanes from  "../assets/tiendapanes.jpg"
 import verdurass from  "../assets/verdurass.jpg"
 
 export const Sucu = () => {
     return (
         <>
-        {/* <div className="container-sucu"></div>
-        <div className="row">
-        <div className="titulo-sucu"><h1> Nuestras Sucursales</h1>
-       <div className=" detalle-sucu">
-        <i class="fa-brands fa-fort-awesome"></i> <h2>Palermo</h2>
-        <p>Austria 2020</p>
-         <a href="#" className="Mapa-sucu">Mapa</a> 
-         <i class="fa-brands fa-fort-awesome"></i> <h2>Palermo</h2>
-        <p>Austria 2020</p>
-         <a href="#" className="Mapa-sucu">Mapa</a> 
-         </div>
-         
-       
-        </div>
-        
-        </div> */}
+     
 
 <section class="features" id="features">
 
