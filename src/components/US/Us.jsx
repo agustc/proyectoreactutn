@@ -36,7 +36,7 @@ import "./Us.css";
        
        <section className="bakery" id="bakery">
 
-         <h2 className="heading"><span>Nosotros </span>!</h2>
+         <h2 className="heading">Nosotros!</h2>
            
            
 
@@ -54,10 +54,11 @@ import "./Us.css";
 <p>
 ¡Amamos lo sano, rico y natural! En nuestra tienda vas a poder encontrar frutos secos, legumbres, semillas, cereales, productos veganos, vegetarianos, orgánicos, sin lactosa, sin TACC, sin azúcar, cosmética natural, vegana y cruelty free y más de mil productos para todos los estilos de vida.
 
-// </p>
+ </p>
+ <br></br>
          
             <div class="wrapper">
-    <a class="button" href="#">Discover our producer</a>
+    <a class="btn-us" href="#">Descubrenos</a>
 </div>
             </div>
 

@@ -12,8 +12,8 @@ export const Products = () =>{
         setMenuProducts(ProductsData.filter((product)=>product.type==type))
     }
     return(
-        <div className="container">
-            <img className="imagen" src={Plane} alt="" />
+        <div className="container-p">
+            <img className="imagen-p" src={Plane} alt="" />
             <h1>Nuestros Productos</h1>
 
             <div className="productss">

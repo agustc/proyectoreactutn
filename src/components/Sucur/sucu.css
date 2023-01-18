@@ -23,7 +23,7 @@
 }
 
 .features .box-container .box{
-    padding:0.8rem 0rem;
+    padding:2rem 0rem;
     background: #fff;
     outline: var(--outline);
     outline-offset: -1rem;
