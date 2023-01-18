@@ -1,12 +1,15 @@
 
 import React from 'react'
-import Navbar from '../navbar/Navbar'
-
+import Navbar from '../navbar/Navbar';
+import { Contact } from '../Contact/Contact';
+import Footer from '../Footer/Footer';
 export default function Contacto() {
     return (
         <>
         <Navbar/>
-       <h1 className="hola">ooooooooooo</h1>
+        <br></br> <br></br> <br></br> <br></br> <br></br>  <br></br>
+      <Contact/>
+      <Footer/>
        </>
     )
 }

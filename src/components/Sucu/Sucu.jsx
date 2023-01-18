@@ -1,13 +1,12 @@
-import "./sucu.css";
+import "./sucurs.css";
 import tiendamermelada from "../assets/tiendamermelada.jpg"
 import tiendapanes from  "../assets/tiendapanes.jpg"
 import verdurass from  "../assets/verdurass.jpg"
-
+import React from 'react'
 export const Sucu = () => {
     return (
         <>
      
-
 <section class="features" id="features">
 
     <h1 class="heading">Sucursales </h1>

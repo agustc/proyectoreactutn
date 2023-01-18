@@ -64,3 +64,12 @@
     
     
 }
+
+@media screen and (max-width:640px) {
+    .features .box-container{
+        display:flex;
+        flex-direction: column;
+        
+    
+    }
+}
