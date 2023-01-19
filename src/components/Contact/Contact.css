@@ -324,6 +324,7 @@
   @media (max-width: 480px) {
     .container {
       padding: 1.5rem;
+      z-index:-1;
     }
   
     .contact-info:before {
