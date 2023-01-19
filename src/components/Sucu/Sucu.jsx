@@ -14,14 +14,14 @@ export const Sucu = () => {
     <div class="box-container">
 
         <div class="box">
-            <img src={tiendamermelada} alt=""/>
+            <img src={tiendamermelada} alt="Sucursal Palermo"/>
             <h3>Palermo </h3>
             <p>Av. Santa Fe 8000</p>
             <a href="https://goo.gl/maps/9satLPj21JCa3tsK8 "class="btn-us">Ir al mapa Mapa</a>
         </div>
         
         <div class="box">
-            <img src={tiendapanes} alt=""/>
+            <img src={tiendapanes} alt="Sucursal Torcuato"/>
             <h3>Don Torcuato</h3>
             <p>Ruta 202 al 200</p>
             <a href="https://goo.gl/maps/4Smc7SdEycz26D3T8" class="btn-us">Ir al mapa Mapa</a>
@@ -29,7 +29,7 @@ export const Sucu = () => {
 
         
         <div class="box">
-            <img src={verdurass} alt=""/>
+            <img src={verdurass} alt="Sucursal Pacheco"/>
             <h3>General Pacheco</h3>
             <p>Av.Hipólito Yrigoyen </p>
             <a href="https://goo.gl/maps/yc2U4RcgwSeugvBN7" class="btn-us">Ir al mapa Mapa</a>
